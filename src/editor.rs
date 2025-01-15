@@ -1,3 +1,5 @@
+#![warn(clippy::all, clippy::pedantic)]
+
 use crossterm::event::{read, Event::Key, KeyCode::Char};
 use crossterm::terminal::{enable_raw_mode,disable_raw_mode};
 
